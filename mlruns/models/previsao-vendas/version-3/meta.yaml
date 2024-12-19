@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1734631884634
+current_stage: None
+description: ''
+last_updated_timestamp: 1734631884634
+name: previsao-vendas
+run_id: 6a735a8d303446ef9cd70e73775355fb
+run_link: ''
+source: mlflow-artifacts:/340552548232511301/6a735a8d303446ef9cd70e73775355fb/artifacts/api_vendas
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/340552548232511301/6a735a8d303446ef9cd70e73775355fb/artifacts/api_vendas
+user_id: null
+version: 3

@@ -1,0 +1,29 @@
+artifact_path: api_vendas
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.0
+mlflow_version: 2.19.0
+model_size_bytes: 108967
+model_uuid: a0ba36314ccd4d659e6bc5468fd06c73
+run_id: f2c35e2339a6476f9c1a580e57d33381
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "venda_diaria", "required": true}]'
+  outputs: '[{"type": "double", "name": "predicted_mean", "required": true}]'
+  params: null
+utc_time_created: '2024-12-18 20:12:53.569288'

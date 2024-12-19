@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/340552548232511301/e2ddd5790a604ec999278c36cdf1c036/artifacts
+end_time: 1734632180538
+entry_point_name: ''
+experiment_id: '340552548232511301'
+lifecycle_stage: active
+run_id: e2ddd5790a604ec999278c36cdf1c036
+run_name: traveling-skink-956
+run_uuid: e2ddd5790a604ec999278c36cdf1c036
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734632171306
+status: 3
+tags: []
+user_id: mauri

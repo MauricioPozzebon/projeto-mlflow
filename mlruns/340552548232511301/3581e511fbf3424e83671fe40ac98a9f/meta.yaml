@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/340552548232511301/3581e511fbf3424e83671fe40ac98a9f/artifacts
+deleted_time: 1734631992806
+end_time: 1734552148302
+entry_point_name: ''
+experiment_id: '340552548232511301'
+lifecycle_stage: deleted
+run_id: 3581e511fbf3424e83671fe40ac98a9f
+run_name: popular-flea-859
+run_uuid: 3581e511fbf3424e83671fe40ac98a9f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734552148177
+status: 4
+tags: []
+user_id: mauri

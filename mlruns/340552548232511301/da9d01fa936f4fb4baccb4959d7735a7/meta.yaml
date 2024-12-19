@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/340552548232511301/da9d01fa936f4fb4baccb4959d7735a7/artifacts
+end_time: 1734552285167
+entry_point_name: ''
+experiment_id: '340552548232511301'
+lifecycle_stage: active
+run_id: da9d01fa936f4fb4baccb4959d7735a7
+run_name: welcoming-pug-883
+run_uuid: da9d01fa936f4fb4baccb4959d7735a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734552271867
+status: 3
+tags: []
+user_id: mauri
