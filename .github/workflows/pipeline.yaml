@@ -17,8 +17,5 @@ jobs:
       - name: Instalar uv
         run: pipx install uv
 
-      - name: Instalar dependências
-        run: uv init
-
       - name: Testar Hello
         run: uv run hello.py
