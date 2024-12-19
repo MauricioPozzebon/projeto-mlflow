@@ -1,0 +1,24 @@
+name: Pipeline
+on: [push, pull_request]
+
+jobs: 
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Copia arquivos
+        uses: actions/checkout@v3
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with: 
+          python-version: '3.12'
+      
+      - name: Instalar uv
+        run: pipx install uv
+
+      - name: Instalar dependências
+        run: uv init
+
+      - name: Testar Hello
+        run: uv run hello.py
