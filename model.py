@@ -96,7 +96,7 @@ forecast = model_fit.forecast(steps=len(test))
 
 rmse = np.sqrt(mean_squared_error(test, forecast))
 
-mlflow.set_tracking_uri(uri="http://localhost:5000")
+mlflow.set_tracking_uri(uri="http://localhost:10000")
 
 mlflow.set_experiment("MLflow Projeção de vendas")
 
